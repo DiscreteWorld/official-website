@@ -1,13 +1,16 @@
 {
-  "name": "fe-template",
+  "name": "official-website",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/DiscreteWorld/fe-template",
   "author": "mist@zzhack.fun <mist@zzhack.fun>",
   "license": "MIT",
   "scripts": {
     "prettier": "prettier",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "remix build",
+    "dev": "remix dev",
+    "postinstall": "remix setup node",
+    "start": "remix-serve build"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.3.0",
@@ -18,7 +21,21 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "@remix-run/dev": "^1.0.6",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.1.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@remix-run/react": "^1.0.6",
+    "@remix-run/serve": "^1.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remix": "^1.0.6"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
 }

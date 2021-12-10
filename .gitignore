@@ -3,3 +3,7 @@ yarn-error.log
 
 # Only yarn
 package-lock.json
+
+/.cache
+/build
+/public/build
