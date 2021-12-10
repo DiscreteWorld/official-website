@@ -1,0 +1,22 @@
+{
+  "eslint.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.options": {
+    "extensions": [".js", ".vue", ".ts", ".tsx"]
+  },
+  "eslint.validate": [
+    //确定校验准则
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

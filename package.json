@@ -1,0 +1,24 @@
+{
+  "name": "fe-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DiscreteWorld/fe-template",
+  "author": "mist@zzhack.fun <mist@zzhack.fun>",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "commitlint": "^14.1.0",
+    "commitlint-config-wizardoc": "^1.1.1",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.0",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {}
+}
